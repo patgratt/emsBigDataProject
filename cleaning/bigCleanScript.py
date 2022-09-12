@@ -11,14 +11,15 @@ def main():
     input_folder = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/decompressed/'
     output_folder = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/'
 
-    input_file_counter = 0
-
     # loop thru folder of raw files
     for file_name in os.listdir(input_folder):
 
         # ignore ds store
         if file_name == ".DS_Store":
-            input_file_counter += 1
+            continue
+
+        # skip this huge file for now
+        if file_name == "Pub_PCRevents.txt":
             continue
 
         print(f"Analyzing {file_name}")
