@@ -64,7 +64,7 @@ def main():
 
             # export
             cleaned_chunk_name = file_name.replace(".txt",f"_chunk{chunk_no}.csv").lower()
-            chunk.to_csv(output_folder + chunk_folder_path + cleaned_chunk_name, index=False)
+            chunk.to_csv(chunk_folder_path + cleaned_chunk_name, index=False)
             print(f"{cleaned_chunk_name} succesfully exported to {output_folder}")
 
             # analyze cleaned chunk
