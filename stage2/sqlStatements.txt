@@ -1,0 +1,21 @@
+SQL Statements
+
+1. Computed Elements:
+	
+CREATE TABLE computedElements (
+	PcrKey INT PRIMARY KEY,  
+	USCensusRegion TEXT, 
+	USCensusDivision TEXT,  
+	NasemsoRegion TEXT,  
+	Urbanicity TEXT,  
+	ageinyear INT,  
+	EMSDispatchCenterTimeSec INT,  
+	EMSChuteTimeMin FLOAT,  
+	EMSSystemResponseTimeMin FLOAT,  	
+	EMSSceneResponseTimeMin FLOAT,  
+	EMSSceneTimeMin FLOAT,  
+	EMSSceneToPatientTimeMin FLOAT,  
+	EMSTransportTimeMin FLOAT,  
+	EMSTotalCallTimeMin FLOAT
+);
+
