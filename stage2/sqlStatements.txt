@@ -34,3 +34,4 @@ INSERT INTO computedElements (PcrKey,
     EMSTransportTimeMin,
     EMSTotalCallTimeMin)
 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+

@@ -1,0 +1,54 @@
+Script started on Mon Sep 12 17:11:36 2022
+]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2[1m[7m%[27m[1m[0m                                                                                                   ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2]2;patrickburke@patMacbookPro]1;..msData/stage2]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mstage2/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[50C[17:11:38][60D[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lscompElemSqlImportScript.py   computedElementsSchema.ipynb
+compElemSqlImportScript.txt  sqlStatements.txt
+[1m[7m%[27m[1m[0m                                                                                                   ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2]2;patrickburke@patMacbookPro]1;..msData/stage2]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mstage2/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[50C[17:11:46][60D[?1h=[?2004hppython compElemSqlImportScript.py[1m [0m[0m [?1l>[?2004l
+]2;python compElemSqlImportScript.py]1;pythonTraceback (most recent call last):
+  File "/Users/patrickburke/repos/emsData/stage2/compElemSqlImportScript.py", line 5, in <module>
+    from humanfriendly import format_timespan
+ModuleNotFoundError: No module named 'humanfriendly'
+[1m[7m%[27m[1m[0m                                                                                                   ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2]2;patrickburke@patMacbookPro]1;..msData/stage2]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mstage2/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[50C[17:11:55][60D[?1h=[?2004hssource activate emsData[?1l>[?2004l
+]2;source activate emsData]1;source[1m[7m%[27m[1m[0m                                                                                                   ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2]2;patrickburke@patMacbookPro]1;..msData/stage2]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mstage2/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[47C[17:12:06][57D[?1h=[?2004hppython compElemSqlImportScript.py[1m [0m[0m [?1l>[?2004l
+]2;python compElemSqlImportScript.py]1;pythonEstablishing connection to sqlite3 database...
+Successfully connected to sqlite3 database!
+Time to connect = 0 seconds
+Creating table now...
+Table successfully created!
+Time to create table = 0.01 seconds
+Initializing reading computedelements_chunk8.csv and inserting into db...
+Successfully inserted computedelements_chunk8.csv into db!
+Time to read and insert computedelements_chunk8.csv = 26.54 seconds
+Initializing reading computedelements_chunk9.csv and inserting into db...
+Successfully inserted computedelements_chunk9.csv into db!
+Time to read and insert computedelements_chunk9.csv = 29.72 seconds
+Initializing reading computedelements_chunk10.csv and inserting into db...
+Successfully inserted computedelements_chunk10.csv into db!
+Time to read and insert computedelements_chunk10.csv = 21.26 seconds
+Initializing reading computedelements_chunk2.csv and inserting into db...
+Successfully inserted computedelements_chunk2.csv into db!
+Time to read and insert computedelements_chunk2.csv = 29.31 seconds
+Initializing reading computedelements_chunk3.csv and inserting into db...
+Successfully inserted computedelements_chunk3.csv into db!
+Time to read and insert computedelements_chunk3.csv = 28.5 seconds
+Initializing reading computedelements_chunk1.csv and inserting into db...
+Successfully inserted computedelements_chunk1.csv into db!
+Time to read and insert computedelements_chunk1.csv = 28.09 seconds
+Initializing reading computedelements_chunk4.csv and inserting into db...
+Successfully inserted computedelements_chunk4.csv into db!
+Time to read and insert computedelements_chunk4.csv = 28.45 seconds
+Initializing reading computedelements_chunk5.csv and inserting into db...
+Successfully inserted computedelements_chunk5.csv into db!
+Time to read and insert computedelements_chunk5.csv = 29.47 seconds
+Initializing reading computedelements_chunk7.csv and inserting into db...
+Successfully inserted computedelements_chunk7.csv into db!
+Time to read and insert computedelements_chunk7.csv = 28.18 seconds
+Initializing reading computedelements_chunk6.csv and inserting into db...
+Successfully inserted computedelements_chunk6.csv into db!
+Time to read and insert computedelements_chunk6.csv = 1 minute and 19.68 seconds
+Successfully inserted all csv files into sqlite3 database
+Time for entire script to run = 5 minutes and 29.67 seconds
+[1m[7m%[27m[1m[0m                                                                                                   ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2]2;patrickburke@patMacbookPro]1;..msData/stage2]7;file://patMacbookPro/Users/patrickburke/repos/emsData/stage2[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mstage2/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[47C[17:17:40][57D[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Mon Sep 12 17:21:19 2022
