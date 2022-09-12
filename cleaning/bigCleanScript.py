@@ -29,8 +29,10 @@ def main():
         print(f"Analyzing {file_name}")
 
         # create chunk folder
-        chunk_folder = os.mkdir(input_folder.replace('decompressed/',file_name.replace('.txt','_chunks/')).lower())
-        print(f"Succesfully created {chunk_folder}")
+        chunk_folder_name = file_name.replace('.txt','_chunks/').lower()
+        chunk_folder_path = output_folder + chunk_folder_name
+        os.mkdir(chunk_folder_path)
+        print(f"Succesfully created chunk folder named: {chunk_folder_name}")
 
         raw_file_size = convert_bytes(os.path.getsize(input_folder + file_name))
         print(f"Raw size of {file_name} = {raw_file_size}")
