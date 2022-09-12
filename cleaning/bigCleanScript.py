@@ -3,6 +3,7 @@ import os
 import os.path
 import time
 import gc
+from humanfriendly import format_timespan
 
 
 def main():
@@ -50,9 +51,9 @@ def main():
 
             print(f"Chunk {chunk_no} of {file_name} successfully read into pandas dataframe.")
             if chunk_no == 1:
-                print(f"Time to load chunk {chunk_no} = {iteration_start - loop_start} seconds")
+                print(f"Time to load chunk {chunk_no} = {format_timespan(iteration_start - loop_start)}")
             else:
-                print(f"Time to load chunk {chunk_no} = {iteration_start - iteration_end} seconds")
+                print(f"Time to load chunk {chunk_no} = {format_timespan(iteration_start - iteration_end)}")
 
             # clean data
             print(f"Initializing data cleaning on chunk {chunk_no}")
@@ -60,7 +61,7 @@ def main():
             chunk.columns = chunk.columns.str.strip("~'")
             chunk = chunk.apply(lambda x: x.str.strip("~ ") if x.dtype == "object" else x)
             clean_end_time = time.time()
-            print(f"Time to clean this chunk = {clean_end_time -  clean_start_time} seconds")
+            print(f"Time to clean this chunk = {format_timespan(clean_end_time -  clean_start_time)}")
 
             # export
             cleaned_chunk_name = file_name.replace(".txt",f"_chunk{chunk_no}.csv").lower()
@@ -84,7 +85,7 @@ def main():
         # iteration end
         loop_end = time.time()
         print(f"{file_name} succesfully broken up into chunks, cleaned, and exported")
-        print(f"Time to clean entire file = {loop_end - loop_start} seconds")
+        print(f"Time to clean entire file = {format_timespan(loop_end - loop_start)}")
 
 
 # calculate file size in KB, MB, GB
