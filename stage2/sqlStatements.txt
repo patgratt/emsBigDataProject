@@ -19,3 +19,18 @@ CREATE TABLE computedElements (
 	EMSTotalCallTimeMin FLOAT
 );
 
+INSERT INTO computedElements (PcrKey,
+    USCensusRegion,
+    USCensusDivision,
+    NasemsoRegion,
+    Urbanicity,
+    ageinyear,
+    EMSDispatchCenterTimeSec,
+    EMSChuteTimeMin,
+    EMSSystemResponseTimeMin,
+    EMSSceneResponseTimeMin,
+    EMSSceneTimeMin,
+    EMSSceneToPatientTimeMin,
+    EMSTransportTimeMin,
+    EMSTotalCallTimeMin)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);

@@ -30,11 +30,13 @@ CREATE TABLE IF NOT EXISTS computedElements (
 # Execute create table statement
 cursor.execute(create_table)
 
-# Open csv file
-file = open('/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/computedelements_chunks/computedelements_chunk1.csv')
+# define path of csv file
+filepath = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/computedelements_chunks/computedelements_chunk1.csv'
 
 # Read contents
-contents = csv.reader(file)
+with open(filepath, "r") as csvfile:
+    contents = csv.reader(csvfile)
+    next(contents)
 
 # Define SQL statement to insert data into the computedElements table
 insert = '''
@@ -58,9 +60,10 @@ VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 # Execute insert statement
 cursor.executemany(insert, contents)
 
-# SQL query to retrieve first 100 rows from the computedElements table to verify that the
+# SQL query to retrieve first 50 rows from the computedElements table to verify that the
 # data from the csv file has been successfully inserted into the table
-select100 = 'SELECT * FROM ComputedElements LIMIT 100;'
+cursor.execute('.mode table')
+select100 = 'SELECT * FROM ComputedElements LIMIT 50;'
 rows = cursor.execute(select100).fetchall()
 
 # Output to the console screen
