@@ -1,63 +1,57 @@
 import pandas as pd
 import os
+import os.path
 import time
+import gc
+
+# starting this out going one by one
+
+
 
 def main():
-
     # start timer on whole script
     script_start = time.time()
 
     input_folder = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/decompressed/'
     output_folder = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/'
 
-    # chunksize = 10 million rows
-    chunksize = 10 * (10**6)
+    # load the file
+    load_start = time.time()
+    print("Initialzing reading {} into pandas dataframe.".format(file_name))
+    print("Size of {} = {}".format(file_name, converted_size))
 
-    file_counter = 0
+    df = pd.read_csv(input_folder + file_name, sep="|")
+    load_finish = time.time()
+    print("{} successfully read into pandas dataframe.".format(file_name))
+    print("Time to load = {} seconds".format(int(load_finish - load_start)))
+    print("{} has {} rows and {} columns".format(file_name, len(df.index),len(df.columns)))
 
-    for file_name in os.listdir(input_folder):
+    print("Initializing data cleaning on {}".format(file_name))
+    clean_start = time.time()
+    df.columns = df.columns.str.strip("~'")
+    df = df.apply(lambda x: x.str.strip("~ ") if x.dtype == "object" else x)
+    new_file_name = file_name.replace(".txt",".csv").lower()
 
-        # ignore ds store
-        if file_name == ".DS_Store":
-            counter += 1
-            continue
+    # export
+    df.to_csv(output_folder + new_file_name, index=False)
 
-        # check size of file
-        raw_size = os.path.getsize(input_folder + file_name)
-        converted_size = convert_bytes(raw_size)
+    # free up memory
+    del df
+    gc.collect()
+    df = pd.DataFrame()
 
-        # initialize the file
-        file_start = time.time()
-        print("Initialzing reading {} into pandas dataframe.".format(file_name))
-        print("Size of {} = {}".format(file_name, converted_size))
-        total_chunks = chunksize // converted_size
+    clean_end = time.time()
+    print(new_file_name + " has been successfully cleaned and exported")
+    print("Time to clean = {} seconds".format(int(clean_end - clean_start)))
+    export_size = convert_bytes(os.path.getsize(output_folder + new_file_name))
+    print("Size of file after cleaning = {}".format(export_size))
+    counter += 1
+    print("Progress = {}/{}".format(counter,len(os.listdir(input_folder))))
 
-        # load the file
-        with pd.read_csv(input_folder + file_name, sep='|', chunksize=chunksize) as reader:
-            for i, chunk in enumerate(reader):
-                
-                print("Initialzing cleaning chunk number {} of {}".format(i+1, total_chunks))
-                chunk_start = time.time()
-
-                chunk.columns = chunk.columns.str.strip("~'")
-                chunk = chunk.apply(lambda x: x.str.strip("~ ") if x.dtype == "object" else x)
-
-                print("Finished cleaning chunk number {}".format(i+1))
-                chunk_end = time.time()
-                print("Time to clean chunk = {} seconds".format(chunk_end - chunk_start))
-
-
-
-                new_file_name = file_name.replace(".txt",".csv").lower() + str(i+1)
-                chunk.to_csv(output_folder + new_file_name, index=False)
-
-        # file finished
-        file_finish = time.time()
-
-
-
-
-
+    
+    script_end = time.time()
+    print("All data successfully cleaned")
+    print("Time for entire script to run = {} seconds".format(script_end - script_start))
 
 
 # calculate file size in KB, MB, GB
@@ -67,10 +61,6 @@ def convert_bytes(size):
         if size < 1024.0:
             return "%3.1f %s" % (size, x)
         size /= 1024.0
-
-
-
-
 
 
 if __name__ == '__main__':
