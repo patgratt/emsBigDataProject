@@ -32,7 +32,7 @@ def main():
         chunk_folder_name = file_name.replace('.txt','_chunks/').lower()
         chunk_folder_path = output_folder + chunk_folder_name
         os.mkdir(chunk_folder_path)
-        print(f"Succesfully created chunk folder named: {chunk_folder_name}")
+        print(f"Succesfully created chunk folder: {chunk_folder_path}")
 
         raw_file_size = convert_bytes(os.path.getsize(input_folder + file_name))
         print(f"Raw size of {file_name} = {raw_file_size}")
@@ -42,7 +42,7 @@ def main():
         chunk_no=1
 
         loop_start = time.time()
-        print("Initialzing reading chunk {chunk_no} of {file_name} into pandas dataframe.")
+        print(f"Initialzing reading chunk {chunk_no} of {file_name} into pandas dataframe.")
         
         # loop thru file by chunks
         for chunk in pd.read_csv(input_folder + file_name, sep='|',chunksize=chunk_size):
