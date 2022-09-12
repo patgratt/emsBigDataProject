@@ -1,0 +1,65 @@
+Script started on Mon Sep 12 13:45:48 2022
+Restored session: Mon Sep 12 13:31:07 EDT 2022
+]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[71C[13:45:49][81D[?1h=[?2004h[H[2J[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[71C[13:45:51][81Dlls[?1l>[?2004l
+]2;ls -G]1;lsbigCleanScript.py           clean_script.py             test.ipynb
+bigCleanScriptOutputLog.txt sqlSetupLog.txt
+[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[71C[13:46:15][81D[?1h=[?2004hccd [?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke]2;patrickburke@patMacbookPro]1;~]7;file://patMacbookPro/Users/patrickburke[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1m~/[0m[00m $ [K[86C[13:46:20][96D[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mApplications[39;49m[0m         [1m[36mDropbox[39;49m[0m              [1m[36mMovies[39;49m[0m               [1m[36mPublic[39;49m[0m               [1m[36mrepos[39;49m[0m
+[1m[36mCreative Cloud Files[39;49m[0m [35mGoogle Drive[39;49m[0m         [1m[36mMusic[39;49m[0m                [1m[36mfirmware[39;49m[0m             [1m[36msrcCode[39;49m[0m
+[1m[36mDesktop[39;49m[0m              [1m[36mInstaPy[39;49m[0m              [1m[36mOffline Documents[39;49m[0m    [1m[36mopt[39;49m[0m                  [1m[36mundot[39;49m[0m
+[1m[36mDocuments[39;49m[0m            [1m[36mLibrary[39;49m[0m              [1m[36mParallels[39;49m[0m            outputfile.txt
+[1m[36mDownloads[39;49m[0m            [1m[36mMacKeeper Backups[39;49m[0m    [1m[36mPictures[39;49m[0m             [1m[36mremnote[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke]2;patrickburke@patMacbookPro]1;~]7;file://patMacbookPro/Users/patrickburke[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1m~/[0m[00m $ [K[86C[13:46:23][96D[?1h=[?2004hccd Library/CloudStorage/
+[J[1;31mGoogleDrive-33patburke@gmail.com[0m/  [J[1;31mOneDrive-EmoryUniversity[0m/        [J[A[0m[27m[24m[0m[25Ccd Library/CloudStorage/[K[62C[13:46:23][0m[72DPO  OneDrive-EmoryUniversity[1m/[0m[0m/ECON496RW[1m/[0m[0m [?1l>[?2004l
+[J]2;cd Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]1;cd[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[78C[13:46:58][88D[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;ls[1m[36m2021 Support Docs[39;49m[0m [1m[36mcleaned_big[39;49m[0m       [1m[36mcleaned_ref[39;49m[0m       [1m[36mcleaned_small[39;49m[0m     [1m[36mdecompressed[39;49m[0m      [1m[36mraw[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[78C[13:46:59][88D[?1h=[?2004hssource activate emsData[?1l>[?2004l
+]2;source activate emsData]1;source[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[75C[13:47:22][85D[?1h=[?2004hssqlite3 emsData.db[?1l>[?2004l
+]2;sqlite3 emsData.db]1;sqlite3SQLite version 3.39.2 2022-07-21 15:24:47
+Enter ".help" for usage hints.
+[?2004hsqlite> .mode csv
+[?2004l[?2004hsqlite> .import ./computedelements_chunks/computedelemets[K[Knts_chunks[K1.csv
+[?2004lERROR: missing TABLE argument. Usage:
+.import FILE TABLE       Import data from FILE into TABLE
+   Options:
+     --ascii               Use \037 and \036 as column and row separators
+     --csv                 Use , and \n as column and row separators
+     --skip N              Skip the first N rows of input
+     --schema S            Target table to be S.TABLE
+     -v                    "Verbose" - increase auxiliary output
+   Notes:
+     *  If TABLE does not exist, it is created.  The first row of input
+        determines the column names.
+     *  If neither --csv or --ascii are used, the input mode is derived
+        from the ".mode" output mode
+     *  If FILE begins with "|" then it is a command that generates the
+        input text.
+[?2004hsqlite> [7m.import FILE TABLE[27m[C[C[C[C[C[C[C[C.import FILE TABLE [7m./computedelements_chunks/computedelements_chunk1.csv[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./computedelements_chunks/computedelements_chunk1.csv
+[?2004lERROR: extra argument: "./computedelements_chunks/computedelements_chunk1.csv".  Usage:
+.import FILE TABLE       Import data from FILE into TABLE
+   Options:
+     --ascii               Use \037 and \036 as column and row separators
+     --csv                 Use , and \n as column and row separators
+     --skip N              Skip the first N rows of input
+     --schema S            Target table to be S.TABLE
+     -v                    "Verbose" - increase auxiliary output
+   Notes:
+     *  If TABLE does not exist, it is created.  The first row of input
+        determines the column names.
+     *  If neither --csv or --ascii are used, the input mode is derived
+        from the ".mode" output mode
+     *  If FILE begins with "|" then it is a command that generates the
+        input text.
+[?2004hsqlite> [7mCREATE TABLE IF NOT EXISTS[27m[C[C[C[C[C[C[C[CCREATE TABLE IF NOT EXISTS computed_elements ([7mPcrKey[27mPcrKey [7mINTEGER PRIMARY KEY[27mINTEGER PRIMARY KEYm [K[K, [7mUSCensusRegion[27mUSCensusRegion TEXT, [7mUSCensusDivision[27mUSCensusDivision TE XT[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42P.import FILE TABLE ./computedelements_chunks/computedelements_chunk1.csv
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCREATE TABLE IF NOT EXISTS computed_elements (PcrKey INTEGER PRIMARY KEY, USCensusRegion TEXT, USCensusDivision TEXT [K, Names[K[K[K[K[K[7mNasemsoRegion[27m[C[C[C[CNasemsoRegion[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K, T E[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41P.import FILE TABLE ./computedelements_chunks/computedelements_chunk1.csv[C[C[C[C[C[C[C[CCREATE TABLE IF NOT EXISTS computed_elements (PcrKey INTEGER PRIMARY KEY, USCensusRegion TEXT, USCensusDivision, [K[K TE XT, [A[C[C[C[C[42P.import FILE TABLE ./computedelements_chunks/computedelements_chunk1.csv
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCREATE TABLE IF NOT EXISTS computed_elements (PcrKey INTEGER PRIMARY KEY, USCensusRegion TEXT, USCensusDivision TEXT, [K[K
+[?2004l[?2004h   ...> ;[K^C[?2004l[?2004h[H[2J   ...> [?2004l
+
+Parse error: incomplete input
+[1m[7m%[27m[1m[0m                                                                                                                          ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[75C[14:07:47][85D[?1h=[?2004hssqlirte     s  ssqlite2 3 emdD  sData.dn b[?1l>[?2004l
+]2;sqlite3 emsData.db]1;sqlite3SQLite version 3.39.2 2022-07-21 15:24:47
+Enter ".help" for usage hints.
+[?2004hsqlite> [7mCREATE TABLE IF NOT EXISTS computed_elements (PcrKey INTEGER PRIMARY KEY, USCensusRegion TEXT, USCensusDivision TE[27m[7mX[27m[7mT, [27m[A[C[C[C[CCREATE TABLE IF NOT EXISTS computed_elements (PcrKey INTEGER PRIMARY KEY, USCensusRegion TEXT, USCensusDivision TEXT, [K v[K

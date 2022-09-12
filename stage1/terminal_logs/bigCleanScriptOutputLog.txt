@@ -1,0 +1,801 @@
+Script started on Mon Sep 12 02:13:49 2022
+Restored session: Mon Sep 12 02:13:12 EDT 2022
+]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[1m[7m%[27m[1m[0m                                                                                       ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[37C[2:13:50][46D[?1h=[?2004hssource activate 
+[0mbigCleanScript.py            clean_script.py                                         
+[JbigCleanScriptOutputLog.txt  [Jtest.ipynb                   [J                           [A[A[0m[27m[24m[0m[40Csource activate[K[22C[2:13:50][0m[30Drm  emsData[?1l>[?2004l
+[J]2;source activate emsData]1;source[1m[7m%[27m[1m[0m                                                                                       ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[34C[2:14:05][43D[?1h=[?2004hppython 
+[J[0mbigCleanScript.py  [Jclean_script.py  [J[A[0m[27m[24m[0m[43Cpython[K[28C[2:14:05][0m[36Dbigh CleanScript.py[1m [0m[0m [?1l>[?2004l
+[J]2;python bigCleanScript.py]1;pythonAnalyzing FACTPCRPROCEDURE.txt
+Analyzing PCRVITALECGGROUP.txt
+Analyzing ComputedElements.txt
+Analyzing FACTPCRVITAL.txt
+Analyzing PCRVITALGLASGOWQUALIFIERGROUP.txt
+Analyzing FACTPCRMEDICATION.txt
+Succesfully created chunk folder: /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Raw size of FACTPCRMEDICATION.txt = 11.6 GB
+Initialzing loading chunk 1 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 1 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 1 = 27 minutes and 59.49 seconds
+Initializing data cleaning on chunk 1
+Chunk 1 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 29.78 seconds
+factpcrmedication_chunk1.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 428.6 MB
+Iniatializing loading chunk 2 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 2 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 2 = 19.73 seconds
+Initializing data cleaning on chunk 2
+Chunk 2 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 23.39 seconds
+factpcrmedication_chunk2.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 430.4 MB
+Iniatializing loading chunk 3 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 3 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 3 = 16.77 seconds
+Initializing data cleaning on chunk 3
+Chunk 3 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 21.08 seconds
+factpcrmedication_chunk3.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 430.6 MB
+Iniatializing loading chunk 4 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 4 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 4 = 16.65 seconds
+Initializing data cleaning on chunk 4
+Chunk 4 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 22.36 seconds
+factpcrmedication_chunk4.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 430.5 MB
+Iniatializing loading chunk 5 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 5 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 5 = 16.68 seconds
+Initializing data cleaning on chunk 5
+Chunk 5 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 20.86 seconds
+factpcrmedication_chunk5.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 430.2 MB
+Iniatializing loading chunk 6 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 6 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 6 = 16.55 seconds
+Initializing data cleaning on chunk 6
+Chunk 6 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 19.72 seconds
+factpcrmedication_chunk6.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 430.2 MB
+Iniatializing loading chunk 7 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 7 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 7 = 16.42 seconds
+Initializing data cleaning on chunk 7
+Chunk 7 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 19.34 seconds
+factpcrmedication_chunk7.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 429.9 MB
+Iniatializing loading chunk 8 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 8 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 8 = 16.46 seconds
+Initializing data cleaning on chunk 8
+Chunk 8 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 20.58 seconds
+factpcrmedication_chunk8.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 429.4 MB
+Iniatializing loading chunk 9 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 9 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 9 = 17.37 seconds
+Initializing data cleaning on chunk 9
+Chunk 9 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 22.04 seconds
+factpcrmedication_chunk9.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 429.5 MB
+Iniatializing loading chunk 10 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 10 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 10 = 16.34 seconds
+Initializing data cleaning on chunk 10
+Chunk 10 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 20.76 seconds
+factpcrmedication_chunk10.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 429.5 MB
+Iniatializing loading chunk 11 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 11 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 11 = 15.86 seconds
+Initializing data cleaning on chunk 11
+Chunk 11 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 20.63 seconds
+factpcrmedication_chunk11.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 430.5 MB
+Iniatializing loading chunk 12 of FACTPCRMEDICATION.txt into pandas dataframe.
+Chunk 12 of FACTPCRMEDICATION.txt successfully read into pandas dataframe.
+Time to load chunk 12 = 4.44 seconds
+Initializing data cleaning on chunk 12
+Chunk 12 of FACTPCRMEDICATION.txt successfully cleaned.
+Time to clean this chunk = 4.32 seconds
+factpcrmedication_chunk12.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Size of chunk after cleaning = 104.9 MB
+Iniatializing loading chunk 13 of FACTPCRMEDICATION.txt into pandas dataframe.
+FACTPCRMEDICATION.txt succesfully broken up into chunks, cleaned, and exported
+Time to clean entire file = 38 minutes and 54.17 seconds
+Analyzing PCRVITALECGINTERPRETATIONGROUP.txt
+Succesfully created chunk folder: /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Raw size of PCRVITALECGINTERPRETATIONGROUP.txt = 5.1 GB
+Initialzing loading chunk 1 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 1 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 1 = 4 minutes and 22.31 seconds
+Initializing data cleaning on chunk 1
+Chunk 1 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 5.3 seconds
+pcrvitalecginterpretationgroup_chunk1.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 2 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 2 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 2 = 5.72 seconds
+Initializing data cleaning on chunk 2
+Chunk 2 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.78 seconds
+pcrvitalecginterpretationgroup_chunk2.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 3 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 3 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 3 = 5.69 seconds
+Initializing data cleaning on chunk 3
+Chunk 3 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.72 seconds
+pcrvitalecginterpretationgroup_chunk3.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 4 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 4 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 4 = 5.56 seconds
+Initializing data cleaning on chunk 4
+Chunk 4 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.62 seconds
+pcrvitalecginterpretationgroup_chunk4.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 5 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 5 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 5 = 5.5 seconds
+Initializing data cleaning on chunk 5
+Chunk 5 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.56 seconds
+pcrvitalecginterpretationgroup_chunk5.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 6 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 6 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 6 = 5.53 seconds
+Initializing data cleaning on chunk 6
+Chunk 6 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.59 seconds
+pcrvitalecginterpretationgroup_chunk6.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 7 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 7 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 7 = 5.57 seconds
+Initializing data cleaning on chunk 7
+Chunk 7 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.72 seconds
+pcrvitalecginterpretationgroup_chunk7.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 8 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 8 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 8 = 5.51 seconds
+Initializing data cleaning on chunk 8
+Chunk 8 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.69 seconds
+pcrvitalecginterpretationgroup_chunk8.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 9 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 9 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 9 = 5.55 seconds
+Initializing data cleaning on chunk 9
+Chunk 9 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.73 seconds
+pcrvitalecginterpretationgroup_chunk9.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 10 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 10 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 10 = 5.65 seconds
+Initializing data cleaning on chunk 10
+Chunk 10 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.7 seconds
+pcrvitalecginterpretationgroup_chunk10.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 11 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 11 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 11 = 5.54 seconds
+Initializing data cleaning on chunk 11
+Chunk 11 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.63 seconds
+pcrvitalecginterpretationgroup_chunk11.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 12 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 12 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 12 = 5.46 seconds
+Initializing data cleaning on chunk 12
+Chunk 12 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.53 seconds
+pcrvitalecginterpretationgroup_chunk12.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 13 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 13 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 13 = 5.51 seconds
+Initializing data cleaning on chunk 13
+Chunk 13 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.59 seconds
+pcrvitalecginterpretationgroup_chunk13.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 14 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 14 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 14 = 5.6 seconds
+Initializing data cleaning on chunk 14
+Chunk 14 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.63 seconds
+pcrvitalecginterpretationgroup_chunk14.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 15 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 15 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 15 = 5.54 seconds
+Initializing data cleaning on chunk 15
+Chunk 15 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.74 seconds
+pcrvitalecginterpretationgroup_chunk15.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 16 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 16 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 16 = 5.49 seconds
+Initializing data cleaning on chunk 16
+Chunk 16 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.58 seconds
+pcrvitalecginterpretationgroup_chunk16.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 17 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 17 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 17 = 5.56 seconds
+Initializing data cleaning on chunk 17
+Chunk 17 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.69 seconds
+pcrvitalecginterpretationgroup_chunk17.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 18 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 18 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 18 = 5.57 seconds
+Initializing data cleaning on chunk 18
+Chunk 18 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.86 seconds
+pcrvitalecginterpretationgroup_chunk18.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 19 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 19 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 19 = 5.52 seconds
+Initializing data cleaning on chunk 19
+Chunk 19 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.63 seconds
+pcrvitalecginterpretationgroup_chunk19.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 20 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 20 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 20 = 5.53 seconds
+Initializing data cleaning on chunk 20
+Chunk 20 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.58 seconds
+pcrvitalecginterpretationgroup_chunk20.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 21 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 21 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 21 = 5.49 seconds
+Initializing data cleaning on chunk 21
+Chunk 21 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.51 seconds
+pcrvitalecginterpretationgroup_chunk21.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 22 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 22 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 22 = 5.54 seconds
+Initializing data cleaning on chunk 22
+Chunk 22 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.67 seconds
+pcrvitalecginterpretationgroup_chunk22.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 23 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 23 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 23 = 5.51 seconds
+Initializing data cleaning on chunk 23
+Chunk 23 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.56 seconds
+pcrvitalecginterpretationgroup_chunk23.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 24 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 24 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 24 = 5.54 seconds
+Initializing data cleaning on chunk 24
+Chunk 24 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.6 seconds
+pcrvitalecginterpretationgroup_chunk24.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 25 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 25 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 25 = 5.54 seconds
+Initializing data cleaning on chunk 25
+Chunk 25 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.62 seconds
+pcrvitalecginterpretationgroup_chunk25.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 26 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 26 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 26 = 5.52 seconds
+Initializing data cleaning on chunk 26
+Chunk 26 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.67 seconds
+pcrvitalecginterpretationgroup_chunk26.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 27 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 27 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 27 = 5.45 seconds
+Initializing data cleaning on chunk 27
+Chunk 27 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.65 seconds
+pcrvitalecginterpretationgroup_chunk27.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 28 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 28 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 28 = 5.51 seconds
+Initializing data cleaning on chunk 28
+Chunk 28 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.74 seconds
+pcrvitalecginterpretationgroup_chunk28.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 29 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 29 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 29 = 5.52 seconds
+Initializing data cleaning on chunk 29
+Chunk 29 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.77 seconds
+pcrvitalecginterpretationgroup_chunk29.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 30 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+Chunk 30 of PCRVITALECGINTERPRETATIONGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 30 = 0.33 seconds
+Initializing data cleaning on chunk 30
+Chunk 30 of PCRVITALECGINTERPRETATIONGROUP.txt successfully cleaned.
+Time to clean this chunk = 0.06 seconds
+pcrvitalecginterpretationgroup_chunk30.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalecginterpretationgroup_chunks/
+Size of chunk after cleaning = 1.8 MB
+Iniatializing loading chunk 31 of PCRVITALECGINTERPRETATIONGROUP.txt into pandas dataframe.
+PCRVITALECGINTERPRETATIONGROUP.txt succesfully broken up into chunks, cleaned, and exported
+Time to clean entire file = 13 minutes and 11.27 seconds
+[1m[7m%[27m[1m[0m                                                                                       ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[34C[3:06:19][43D[?1h=[?2004hppython 
+[J[0mbigCleanScript.py  [Jclean_script.py  [J[A[0m[27m[24m[0m[43Cpython[K[28C[3:06:19][0m[36DbigCleanScript.py[1m [0m[0m [?1l>[?2004l
+[J]2;python bigCleanScript.py]1;pythonAnalyzing FACTPCRPROCEDURE.txt
+Succesfully created chunk folder: /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Raw size of FACTPCRPROCEDURE.txt = 9.4 GB
+Initialzing loading chunk 1 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 1 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 1 = 16 minutes and 36.21 seconds
+Initializing data cleaning on chunk 1
+Chunk 1 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 20.44 seconds
+factpcrprocedure_chunk1.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 393.9 MB
+Iniatializing loading chunk 2 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 2 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 2 = 14.93 seconds
+Initializing data cleaning on chunk 2
+Chunk 2 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 18.89 seconds
+factpcrprocedure_chunk2.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.6 MB
+Iniatializing loading chunk 3 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 3 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 3 = 11.45 seconds
+Initializing data cleaning on chunk 3
+Chunk 3 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 14.06 seconds
+factpcrprocedure_chunk3.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 395.2 MB
+Iniatializing loading chunk 4 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 4 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 4 = 11.47 seconds
+Initializing data cleaning on chunk 4
+Chunk 4 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.85 seconds
+factpcrprocedure_chunk4.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.8 MB
+Iniatializing loading chunk 5 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 5 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 5 = 11.66 seconds
+Initializing data cleaning on chunk 5
+Chunk 5 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.97 seconds
+factpcrprocedure_chunk5.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.8 MB
+Iniatializing loading chunk 6 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 6 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 6 = 11.53 seconds
+Initializing data cleaning on chunk 6
+Chunk 6 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.88 seconds
+factpcrprocedure_chunk6.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.8 MB
+Iniatializing loading chunk 7 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 7 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 7 = 11.98 seconds
+Initializing data cleaning on chunk 7
+Chunk 7 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.81 seconds
+factpcrprocedure_chunk7.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.7 MB
+Iniatializing loading chunk 8 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 8 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 8 = 11.53 seconds
+Initializing data cleaning on chunk 8
+Chunk 8 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.88 seconds
+factpcrprocedure_chunk8.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.8 MB
+Iniatializing loading chunk 9 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 9 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 9 = 11.18 seconds
+Initializing data cleaning on chunk 9
+Chunk 9 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.83 seconds
+factpcrprocedure_chunk9.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.6 MB
+Iniatializing loading chunk 10 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 10 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 10 = 11.66 seconds
+Initializing data cleaning on chunk 10
+Chunk 10 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 14.23 seconds
+factpcrprocedure_chunk10.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.6 MB
+Iniatializing loading chunk 11 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 11 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 11 = 11.03 seconds
+Initializing data cleaning on chunk 11
+Chunk 11 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.64 seconds
+factpcrprocedure_chunk11.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.4 MB
+Iniatializing loading chunk 12 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 12 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 12 = 11.41 seconds
+Initializing data cleaning on chunk 12
+Chunk 12 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.75 seconds
+factpcrprocedure_chunk12.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.4 MB
+Iniatializing loading chunk 13 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 13 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 13 = 11.68 seconds
+Initializing data cleaning on chunk 13
+Chunk 13 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.84 seconds
+factpcrprocedure_chunk13.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.5 MB
+Iniatializing loading chunk 14 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 14 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 14 = 11.42 seconds
+Initializing data cleaning on chunk 14
+Chunk 14 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.82 seconds
+factpcrprocedure_chunk14.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.5 MB
+Iniatializing loading chunk 15 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 15 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 15 = 11.3 seconds
+Initializing data cleaning on chunk 15
+Chunk 15 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 15.73 seconds
+factpcrprocedure_chunk15.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.5 MB
+Iniatializing loading chunk 16 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 16 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 16 = 11.12 seconds
+Initializing data cleaning on chunk 16
+Chunk 16 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 13.86 seconds
+factpcrprocedure_chunk16.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 394.2 MB
+Iniatializing loading chunk 17 of FACTPCRPROCEDURE.txt into pandas dataframe.
+Chunk 17 of FACTPCRPROCEDURE.txt successfully read into pandas dataframe.
+Time to load chunk 17 = 9.45 seconds
+Initializing data cleaning on chunk 17
+Chunk 17 of FACTPCRPROCEDURE.txt successfully cleaned.
+Time to clean this chunk = 11.6 seconds
+factpcrprocedure_chunk17.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrprocedure_chunks/
+Size of chunk after cleaning = 319.1 MB
+Iniatializing loading chunk 18 of FACTPCRPROCEDURE.txt into pandas dataframe.
+FACTPCRPROCEDURE.txt succesfully broken up into chunks, cleaned, and exported
+Time to clean entire file = 29 minutes and 2.81 seconds
+Analyzing PCRVITALECGGROUP.txt
+Folder already exists for pcrvitalecggroup_chunks. Moving on to next file.
+Analyzing ComputedElements.txt
+Folder already exists for computedelements_chunks. Moving on to next file.
+Analyzing FACTPCRVITAL.txt
+Succesfully created chunk folder: /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrvital_chunks/
+Raw size of FACTPCRVITAL.txt = 4.3 GB
+Initialzing loading chunk 1 of FACTPCRVITAL.txt into pandas dataframe.
+Chunk 1 of FACTPCRVITAL.txt successfully read into pandas dataframe.
+Time to load chunk 1 = 9 minutes and 26.97 seconds
+Initializing data cleaning on chunk 1
+Chunk 1 of FACTPCRVITAL.txt successfully cleaned.
+Time to clean this chunk = 47.42 seconds
+factpcrvital_chunk1.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrvital_chunks/
+Size of chunk after cleaning = 720.6 MB
+Iniatializing loading chunk 2 of FACTPCRVITAL.txt into pandas dataframe.
+Chunk 2 of FACTPCRVITAL.txt successfully read into pandas dataframe.
+Time to load chunk 2 = 28.74 seconds
+Initializing data cleaning on chunk 2
+Chunk 2 of FACTPCRVITAL.txt successfully cleaned.
+Time to clean this chunk = 51.06 seconds
+factpcrvital_chunk2.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrvital_chunks/
+Size of chunk after cleaning = 719.2 MB
+Iniatializing loading chunk 3 of FACTPCRVITAL.txt into pandas dataframe.
+Chunk 3 of FACTPCRVITAL.txt successfully read into pandas dataframe.
+Time to load chunk 3 = 29.41 seconds
+Initializing data cleaning on chunk 3
+Chunk 3 of FACTPCRVITAL.txt successfully cleaned.
+Time to clean this chunk = 47.14 seconds
+factpcrvital_chunk3.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrvital_chunks/
+Size of chunk after cleaning = 715.4 MB
+Iniatializing loading chunk 4 of FACTPCRVITAL.txt into pandas dataframe.
+Chunk 4 of FACTPCRVITAL.txt successfully read into pandas dataframe.
+Time to load chunk 4 = 18.52 seconds
+Initializing data cleaning on chunk 4
+Chunk 4 of FACTPCRVITAL.txt successfully cleaned.
+Time to clean this chunk = 15.68 seconds
+factpcrvital_chunk4.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrvital_chunks/
+Size of chunk after cleaning = 360.9 MB
+Iniatializing loading chunk 5 of FACTPCRVITAL.txt into pandas dataframe.
+FACTPCRVITAL.txt succesfully broken up into chunks, cleaned, and exported
+Time to clean entire file = 16 minutes and 3.57 seconds
+Analyzing PCRVITALGLASGOWQUALIFIERGROUP.txt
+Succesfully created chunk folder: /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Raw size of PCRVITALGLASGOWQUALIFIERGROUP.txt = 5.1 GB
+Initialzing loading chunk 1 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 1 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 1 = 8 minutes and 5.43 seconds
+Initializing data cleaning on chunk 1
+Chunk 1 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 5.03 seconds
+pcrvitalglasgowqualifiergroup_chunk1.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 2 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 2 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 2 = 5.4 seconds
+Initializing data cleaning on chunk 2
+Chunk 2 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 5.21 seconds
+pcrvitalglasgowqualifiergroup_chunk2.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 3 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 3 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 3 = 5.62 seconds
+Initializing data cleaning on chunk 3
+Chunk 3 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.75 seconds
+pcrvitalglasgowqualifiergroup_chunk3.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 4 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 4 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 4 = 5.56 seconds
+Initializing data cleaning on chunk 4
+Chunk 4 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.56 seconds
+pcrvitalglasgowqualifiergroup_chunk4.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 5 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 5 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 5 = 5.55 seconds
+Initializing data cleaning on chunk 5
+Chunk 5 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.45 seconds
+pcrvitalglasgowqualifiergroup_chunk5.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 6 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 6 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 6 = 5.39 seconds
+Initializing data cleaning on chunk 6
+Chunk 6 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.61 seconds
+pcrvitalglasgowqualifiergroup_chunk6.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 7 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 7 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 7 = 5.4 seconds
+Initializing data cleaning on chunk 7
+Chunk 7 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.6 seconds
+pcrvitalglasgowqualifiergroup_chunk7.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 8 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 8 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 8 = 5.52 seconds
+Initializing data cleaning on chunk 8
+Chunk 8 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.78 seconds
+pcrvitalglasgowqualifiergroup_chunk8.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 9 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 9 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 9 = 5.48 seconds
+Initializing data cleaning on chunk 9
+Chunk 9 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.68 seconds
+pcrvitalglasgowqualifiergroup_chunk9.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 10 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 10 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 10 = 5.53 seconds
+Initializing data cleaning on chunk 10
+Chunk 10 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.57 seconds
+pcrvitalglasgowqualifiergroup_chunk10.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 11 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 11 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 11 = 5.43 seconds
+Initializing data cleaning on chunk 11
+Chunk 11 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.53 seconds
+pcrvitalglasgowqualifiergroup_chunk11.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 12 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 12 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 12 = 5.44 seconds
+Initializing data cleaning on chunk 12
+Chunk 12 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.59 seconds
+pcrvitalglasgowqualifiergroup_chunk12.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 13 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 13 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 13 = 5.47 seconds
+Initializing data cleaning on chunk 13
+Chunk 13 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.58 seconds
+pcrvitalglasgowqualifiergroup_chunk13.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 14 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 14 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 14 = 5.53 seconds
+Initializing data cleaning on chunk 14
+Chunk 14 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.55 seconds
+pcrvitalglasgowqualifiergroup_chunk14.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 15 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 15 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 15 = 5.42 seconds
+Initializing data cleaning on chunk 15
+Chunk 15 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.61 seconds
+pcrvitalglasgowqualifiergroup_chunk15.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 16 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 16 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 16 = 5.4 seconds
+Initializing data cleaning on chunk 16
+Chunk 16 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.57 seconds
+pcrvitalglasgowqualifiergroup_chunk16.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 17 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 17 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 17 = 5.5 seconds
+Initializing data cleaning on chunk 17
+Chunk 17 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.68 seconds
+pcrvitalglasgowqualifiergroup_chunk17.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 18 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 18 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 18 = 5.45 seconds
+Initializing data cleaning on chunk 18
+Chunk 18 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.7 seconds
+pcrvitalglasgowqualifiergroup_chunk18.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 19 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 19 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 19 = 5.47 seconds
+Initializing data cleaning on chunk 19
+Chunk 19 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.67 seconds
+pcrvitalglasgowqualifiergroup_chunk19.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 20 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 20 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 20 = 5.51 seconds
+Initializing data cleaning on chunk 20
+Chunk 20 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.73 seconds
+pcrvitalglasgowqualifiergroup_chunk20.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 21 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 21 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 21 = 5.44 seconds
+Initializing data cleaning on chunk 21
+Chunk 21 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.59 seconds
+pcrvitalglasgowqualifiergroup_chunk21.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 22 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 22 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 22 = 5.53 seconds
+Initializing data cleaning on chunk 22
+Chunk 22 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.77 seconds
+pcrvitalglasgowqualifiergroup_chunk22.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 23 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 23 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 23 = 5.49 seconds
+Initializing data cleaning on chunk 23
+Chunk 23 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.48 seconds
+pcrvitalglasgowqualifiergroup_chunk23.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 24 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 24 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 24 = 5.43 seconds
+Initializing data cleaning on chunk 24
+Chunk 24 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.69 seconds
+pcrvitalglasgowqualifiergroup_chunk24.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 25 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 25 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 25 = 5.4 seconds
+Initializing data cleaning on chunk 25
+Chunk 25 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.67 seconds
+pcrvitalglasgowqualifiergroup_chunk25.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 26 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 26 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 26 = 5.52 seconds
+Initializing data cleaning on chunk 26
+Chunk 26 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.76 seconds
+pcrvitalglasgowqualifiergroup_chunk26.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 27 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 27 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 27 = 5.53 seconds
+Initializing data cleaning on chunk 27
+Chunk 27 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.57 seconds
+pcrvitalglasgowqualifiergroup_chunk27.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 28 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 28 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 28 = 5.42 seconds
+Initializing data cleaning on chunk 28
+Chunk 28 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.47 seconds
+pcrvitalglasgowqualifiergroup_chunk28.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 29 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 29 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 29 = 5.53 seconds
+Initializing data cleaning on chunk 29
+Chunk 29 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 4.73 seconds
+pcrvitalglasgowqualifiergroup_chunk29.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 133.5 MB
+Iniatializing loading chunk 30 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+Chunk 30 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully read into pandas dataframe.
+Time to load chunk 30 = 0.33 seconds
+Initializing data cleaning on chunk 30
+Chunk 30 of PCRVITALGLASGOWQUALIFIERGROUP.txt successfully cleaned.
+Time to clean this chunk = 0.02 seconds
+pcrvitalglasgowqualifiergroup_chunk30.csv succesfully exported to /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/pcrvitalglasgowqualifiergroup_chunks/
+Size of chunk after cleaning = 669.7 KB
+Iniatializing loading chunk 31 of PCRVITALGLASGOWQUALIFIERGROUP.txt into pandas dataframe.
+PCRVITALGLASGOWQUALIFIERGROUP.txt succesfully broken up into chunks, cleaned, and exported
+Time to clean entire file = 16 minutes and 47.08 seconds
+Analyzing FACTPCRMEDICATION.txt
+Folder already exists for factpcrmedication_chunks. Moving on to next file.
+Analyzing PCRVITALECGINTERPRETATIONGROUP.txt
+Folder already exists for pcrvitalecginterpretationgroup_chunks. Moving on to next file.
+[1m[7m%[27m[1m[0m                                                                                       ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[34C[4:17:29][43D[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Mon Sep 12 13:31:07 2022
