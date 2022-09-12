@@ -61,6 +61,7 @@ def main():
             chunk.columns = chunk.columns.str.strip("~'")
             chunk = chunk.apply(lambda x: x.str.strip("~ ") if x.dtype == "object" else x)
             clean_end_time = time.time()
+            print(f"Chunk {chunk_no} of {file_name} successfully cleaned.")
             print(f"Time to clean this chunk = {format_timespan(clean_end_time -  clean_start_time)}")
 
             # export
