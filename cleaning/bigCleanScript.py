@@ -20,22 +20,17 @@ def main():
             input_file_counter += 1
             continue
 
-        # ignore if file has already been cleaned
-        completed = os.listdir(output_folder)
-        if file_name.replace('.txt','_chunks/').lower() in completed:
-            input_file_counter += 1
-            continue
-
         print(f"Analyzing {file_name}")
 
         # define chunk folder
-        chunk_folder_name = file_name.replace('.txt','_chunks/').lower()
-        chunk_folder_path = output_folder + chunk_folder_name
+        chunk_folder_name = file_name.replace('.txt','_chunks').lower()
+        chunk_folder_path = output_folder + chunk_folder_name + "/"
 
         # create chunk folder if doesn't already exist
         completed = os.listdir(output_folder)
         if chunk_folder_name in completed:
             continue
+
         os.mkdir(chunk_folder_path)
         print(f"Succesfully created chunk folder: {chunk_folder_path}")
 
