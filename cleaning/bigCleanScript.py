@@ -4,54 +4,85 @@ import os.path
 import time
 import gc
 
-# starting this out going one by one
-
-
 
 def main():
-    # start timer on whole script
-    script_start = time.time()
 
     input_folder = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/decompressed/'
     output_folder = '/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/'
 
-    # load the file
-    load_start = time.time()
-    print("Initialzing reading {} into pandas dataframe.".format(file_name))
-    print("Size of {} = {}".format(file_name, converted_size))
+    input_file_counter = 0
 
-    df = pd.read_csv(input_folder + file_name, sep="|")
-    load_finish = time.time()
-    print("{} successfully read into pandas dataframe.".format(file_name))
-    print("Time to load = {} seconds".format(int(load_finish - load_start)))
-    print("{} has {} rows and {} columns".format(file_name, len(df.index),len(df.columns)))
+    # loop thru folder of raw files
+    for file_name in os.listdir(input_folder):
 
-    print("Initializing data cleaning on {}".format(file_name))
-    clean_start = time.time()
-    df.columns = df.columns.str.strip("~'")
-    df = df.apply(lambda x: x.str.strip("~ ") if x.dtype == "object" else x)
-    new_file_name = file_name.replace(".txt",".csv").lower()
+        # ignore ds store
+        if file_name == ".DS_Store":
+            input_file_counter += 1
+            continue
 
-    # export
-    df.to_csv(output_folder + new_file_name, index=False)
+        # ignore if file has already been cleaned
+        completed = os.listdir(output_folder)
+        if file_name.replace('.txt','_chunks/').lower() in completed:
+            input_file_counter += 1
+            continue
 
-    # free up memory
-    del df
-    gc.collect()
-    df = pd.DataFrame()
+        print(f"Analyzing {file_name}")
 
-    clean_end = time.time()
-    print(new_file_name + " has been successfully cleaned and exported")
-    print("Time to clean = {} seconds".format(int(clean_end - clean_start)))
-    export_size = convert_bytes(os.path.getsize(output_folder + new_file_name))
-    print("Size of file after cleaning = {}".format(export_size))
-    counter += 1
-    print("Progress = {}/{}".format(counter,len(os.listdir(input_folder))))
+        # create chunk folder
+        chunk_folder = os.mkdir(input_folder.replace('decompressed/',file_name.replace('.txt','_chunks/')).lower())
+        print(f"Succesfully created {chunk_folder}")
 
-    
-    script_end = time.time()
-    print("All data successfully cleaned")
-    print("Time for entire script to run = {} seconds".format(script_end - script_start))
+        raw_file_size = convert_bytes(os.path.getsize(input_folder + file_name))
+        print(f"Raw size of {file_name} = {raw_file_size}")
+
+        # 5 million rows per chunk
+        chunk_size = 5000000
+        chunk_no=1
+
+        loop_start = time.time()
+        print("Initialzing reading chunk {chunk_no} of {file_name} into pandas dataframe.")
+        
+        # loop thru file by chunks
+        for chunk in pd.read_csv(input_folder + file_name, sep='|',chunksize=chunk_size):
+            iteration_start = time.time()
+
+            print("Chunk {} of {} successfully read into pandas dataframe.".format(chunk_no, file_name))
+            if chunk_no == 1:
+                print(f"Time to load chunk {chunk_no} = {iteration_start - loop_start} seconds")
+            else:
+                print(f"Time to load chunk {chunk_no} = {iteration_start - iteration_end} seconds")
+
+            # clean data
+            print(f"Initializing data cleaning on chunk {chunk_no}")
+            clean_start_time = time.time()
+            chunk.columns = chunk.columns.str.strip("~'")
+            chunk = chunk.apply(lambda x: x.str.strip("~ ") if x.dtype == "object" else x)
+            clean_end_time = time.time()
+            print(f"Time to clean this chunk = {clean_end_time -  clean_start_time} seconds")
+
+            # export
+            cleaned_chunk_name = file_name.replace(".txt",f"_chunk{chunk_no}.csv").lower()
+            chunk.to_csv(output_folder + chunk_folder + cleaned_chunk_name, index=False)
+            print(f"{cleaned_chunk_name} succesfully exported to {output_folder}")
+
+            # analyze cleaned chunk
+            cleaned_chunk_size = convert_bytes(os.path.getsize(output_folder + cleaned_chunk_name))
+            print(f"Size of chunk after cleaning = {cleaned_chunk_size}")
+
+            # free up memory
+            gc.collect()
+
+            chunk_no += 1
+            iteration_end = time.time()
+
+
+        # free up memory
+            gc.collect()
+
+        # iteration end
+        loop_end = time.time()
+        print(f"{file_name} succesfully broken up into chunks, cleaned, and exported")
+        print(f"Time to clean entire file = {loop_end - loop_start} seconds")
 
 
 # calculate file size in KB, MB, GB
@@ -65,3 +96,5 @@ def convert_bytes(size):
 
 if __name__ == '__main__':
 	main()
+
+
