@@ -66,10 +66,10 @@ def main():
             # export
             cleaned_chunk_name = file_name.replace(".txt",f"_chunk{chunk_no}.csv").lower()
             chunk.to_csv(chunk_folder_path + cleaned_chunk_name, index=False)
-            print(f"{cleaned_chunk_name} succesfully exported to {output_folder}")
+            print(f"{cleaned_chunk_name} succesfully exported to {chunk_folder_path}")
 
             # analyze cleaned chunk
-            cleaned_chunk_size = convert_bytes(os.path.getsize(output_folder + cleaned_chunk_name))
+            cleaned_chunk_size = convert_bytes(os.path.getsize(chunk_folder_path + cleaned_chunk_name))
             print(f"Size of chunk after cleaning = {cleaned_chunk_size}")
 
             # free up memory
