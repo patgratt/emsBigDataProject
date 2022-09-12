@@ -1,0 +1,16 @@
+Script started on Mon Sep 12 02:13:49 2022
+Restored session: Mon Sep 12 02:13:12 EDT 2022
+]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[1m[7m%[27m[1m[0m                                                                                       ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(base) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[37C[2:13:50][46D[?1h=[?2004hssource activate 
+[0mbigCleanScript.py            clean_script.py                                         
+[JbigCleanScriptOutputLog.txt  [Jtest.ipynb                   [J                           [A[A[0m[27m[24m[0m[40Csource activate[K[22C[2:13:50][0m[30Drm  emsData[?1l>[?2004l
+[J]2;source activate emsData]1;source[1m[7m%[27m[1m[0m                                                                                       ]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning]2;patrickburke@patMacbookPro]1;..Data/cleaning]7;file://patMacbookPro/Users/patrickburke/repos/emsData/cleaning[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mcleaning/[0m[00m [01;34m([22;31m[1mmain*[0m[01;34m)[00m $ [K[34C[2:14:05][43D[?1h=[?2004hppython 
+[J[0mbigCleanScript.py  [Jclean_script.py  [J[A[0m[27m[24m[0m[43Cpython[K[28C[2:14:05][0m[36Dbigh CleanScript.py[1m [0m[0m [?1l>[?2004l
+[J]2;python bigCleanScript.py]1;pythonAnalyzing FACTPCRPROCEDURE.txt
+Analyzing PCRVITALECGGROUP.txt
+Analyzing ComputedElements.txt
+Analyzing FACTPCRVITAL.txt
+Analyzing PCRVITALGLASGOWQUALIFIERGROUP.txt
+Analyzing FACTPCRMEDICATION.txt
+Succesfully created chunk folder: /Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/cleaned_big/factpcrmedication_chunks/
+Raw size of FACTPCRMEDICATION.txt = 11.6 GB
+Initialzing loading chunk 1 of FACTPCRMEDICATION.txt into pandas dataframe.

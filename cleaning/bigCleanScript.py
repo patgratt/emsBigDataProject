@@ -31,6 +31,7 @@ def main():
         # create chunk folder if doesn't already exist
         completed = os.listdir(output_folder)
         if chunk_folder_name in completed:
+            print(f"Folder already exists for {chunk_folder_name}. Moving on to next file.")
             continue
 
         os.mkdir(chunk_folder_path)
