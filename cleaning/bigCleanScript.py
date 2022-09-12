@@ -53,7 +53,7 @@ def main():
         for chunk in pd.read_csv(input_folder + file_name, sep='|',chunksize=chunk_size):
             iteration_start = time.time()
 
-            print("Chunk {} of {} successfully read into pandas dataframe.".format(chunk_no, file_name))
+            print(f"Chunk {chunk_no} of {file_name} successfully read into pandas dataframe.")
             if chunk_no == 1:
                 print(f"Time to load chunk {chunk_no} = {iteration_start - loop_start} seconds")
             else:
@@ -69,7 +69,7 @@ def main():
 
             # export
             cleaned_chunk_name = file_name.replace(".txt",f"_chunk{chunk_no}.csv").lower()
-            chunk.to_csv(output_folder + chunk_folder + cleaned_chunk_name, index=False)
+            chunk.to_csv(output_folder + chunk_folder_path + cleaned_chunk_name, index=False)
             print(f"{cleaned_chunk_name} succesfully exported to {output_folder}")
 
             # analyze cleaned chunk
