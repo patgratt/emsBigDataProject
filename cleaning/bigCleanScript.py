@@ -43,7 +43,7 @@ def main():
         chunk_no=1
 
         loop_start = time.time()
-        print(f"Initialzing reading chunk {chunk_no} of {file_name} into pandas dataframe.")
+        print(f"Initialzing loading chunk {chunk_no} of {file_name} into pandas dataframe.")
         
         # loop thru file by chunks
         for chunk in pd.read_csv(input_folder + file_name, sep='|',chunksize=chunk_size):
@@ -76,6 +76,7 @@ def main():
             gc.collect()
 
             chunk_no += 1
+            print(f"Iniatializing loading chunk {chunk_no} of {file_name} into pandas dataframe.")
             iteration_end = time.time()
 
 
