@@ -35,4 +35,122 @@ Time for entire script to run = 1 minute and 46.65 seconds
 [1m[7m%[27m[1m[0m                                                                                                                                                                                                                                           ]7;file://patMacbookPro/Users/patrickburke]2;patrickburke@patMacbookPro]1;~]7;file://patMacbookPro/Users/patrickburke[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1m~/[0m[00m $ [K[197C[0:01:15][206D[?1h=[?2004hccd [7mLibrary/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/       [27m[63D[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mC[27ml[27mo[27mu[27md[27mS[27mt[27mo[27mr[27ma[27mg[27me[27m/[27mO[27mn[27me[27mD[27mr[27mi[27mv[27me[27m-[27mE[27mm[27mo[27mr[27my[27mU[27mn[27mi[27mv[27me[27mr[27ms[27mi[27mt[27my[27m/[27mE[27mC[27mO[27mN[27m4[27m9[27m6[27mR[27mW[27m/[27m [27m [27m [27m [27m [27m [27m [?1l>[?2004l
 ]2;cd Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW/]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                           ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[189C[0:01:26][198D[?1h=[?2004hlls[?1l>[?2004l
 ]2;ls -G]1;ls[1m[36m2021 Support Docs[39;49m[0m [1m[36mcleaned_big[39;49m[0m       [1m[36mcleaned_ref[39;49m[0m       [1m[36mcleaned_small[39;49m[0m     [1m[36mdecompressed[39;49m[0m      emsData.db        [1m[36mraceInProgress[39;49m[0m    [1m[36mraw[39;49m[0m
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                           ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[189C[0:01:28][198D[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                           ]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW]2;patrickburke@patMacbookPro]1;..ity/ECON496RW]7;file://patMacbookPro/Users/patrickburke/Library/CloudStorage/OneDrive-EmoryUniversity/ECON496RW[0m[27m[24m[J(emsData) [32m[1mpatrickburke[0m[00m:[34m[1mECON496RW/[0m[00m $ [K[189C[0:01:28][198D[?1h=[?2004hssqlite3 emsData.db[1m [0m[0m [?1l>[?2004l
+]2;sqlite3 emsData.db]1;sqlite3SQLite version 3.39.2 2022-07-21 15:24:47
+Enter ".help" for usage hints.
+[?2004hsqlite> .tables
+[?2004lcomputedElements  raceTable       
+[?2004hsqlite> .schema
+[?2004lCREATE TABLE computedElements (
+	PcrKey INT PRIMARY KEY NOT NULL,  
+	USCensusRegion TEXT, 
+	USCensusDivision TEXT,  
+	NasemsoRegion TEXT,  
+	Urbanicity TEXT,  
+	ageinyear INT,  
+	EMSDispatchCenterTimeSec INT,  
+	EMSChuteTimeMin FLOAT,  
+	EMSSystemResponseTimeMin FLOAT,  	
+	EMSSceneResponseTimeMin FLOAT,  
+	EMSSceneTimeMin FLOAT,  
+	EMSSceneToPatientTimeMin FLOAT,  
+	EMSTransportTimeMin FLOAT,  
+	EMSTotalCallTimeMin FLOAT
+);
+CREATE TABLE raceTable (
+    PcrKey INT PRIMARY KEY NOT NULL,
+    black INTEGER,  
+    white INTEGER,  
+    hispanic_latino INTEGER,  
+    asian INTEGER,  
+    americanIndian_alaskaNative INTEGER,  
+    nativeHawaiian_otherPacificIslander INTEGER
+    );
+[?2004hsqlite> SELECT * FROM raceTabl;e[K[Ke LIMIT 25;
+[?2004l13273412|0|1|0|0|0|0
+17184298|0|1|0|0|0|0
+21699657|0|1|0|0|0|0
+72057010|0|1|0|0|0|0
+83733589|0|0|0|0|1|0
+88178354|0|1|0|0|0|0
+97455081|0|1|0|0|0|0
+102488422|0|1|0|0|0|0
+107295362|0|1|0|0|0|0
+110454483|0|0|0|0|1|0
+116400273|0|1|0|0|0|0
+118170828|0|1|0|0|0|0
+118170830|0|1|0|0|0|0
+118170835|0|1|0|0|0|0
+118170838|1|0|0|0|0|0
+118170842|1|0|0|0|0|0
+118170844|0|1|0|0|0|0
+118170847|0|1|0|0|0|0
+118170848|0|1|0|0|0|0
+118170851|0|0|1|0|0|0
+118170860|0|1|0|0|0|0
+118170865|0|1|0|0|0|0
+118170869|1|0|0|0|0|0
+118170870|0|1|0|0|0|0
+118170874|0|1|0|0|0|0
+[?2004hsqlite> .mode table
+[?2004l[?2004hsqlite> [7mSELECT * FROM raceTable LIMIT 25;[27m[C[C[C[C[C[C[C[CSELECT * FROM raceTable LIMIT 25;
+[?2004l+-----------+-------+-------+-----------------+-------+-----------------------------+-------------------------------------+
+|  PcrKey   | black | white | hispanic_latino | asian | americanIndian_alaskaNative | nativeHawaiian_otherPacificIslander |
++-----------+-------+-------+-----------------+-------+-----------------------------+-------------------------------------+
+| 13273412  | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 17184298  | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 21699657  | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 72057010  | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 83733589  | 0     | 0     | 0               | 0     | 1                           | 0                                   |
+| 88178354  | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 97455081  | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 102488422 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 107295362 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 110454483 | 0     | 0     | 0               | 0     | 1                           | 0                                   |
+| 116400273 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170828 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170830 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170835 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170838 | 1     | 0     | 0               | 0     | 0                           | 0                                   |
+| 118170842 | 1     | 0     | 0               | 0     | 0                           | 0                                   |
+| 118170844 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170847 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170848 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170851 | 0     | 0     | 1               | 0     | 0                           | 0                                   |
+| 118170860 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170865 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170869 | 1     | 0     | 0               | 0     | 0                           | 0                                   |
+| 118170870 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
+| 118170874 | 0     | 1     | 0               | 0     | 0                           | 0                                   |
++-----------+-------+-------+-----------------+-------+-----------------------------+-------------------------------------+
+[?2004hsqlite> SELECT * FROM computedElements LIMIT 25;
+[?2004l+-----------+----------------+------------------+---------------+------------+-----------+--------------------------+-----------------+--------------------------+-------------------------+-----------------+--------------------------+---------------------+---------------------+
+|  PcrKey   | USCensusRegion | USCensusDivision | NasemsoRegion | Urbanicity | ageinyear | EMSDispatchCenterTimeSec | EMSChuteTimeMin | EMSSystemResponseTimeMin | EMSSceneResponseTimeMin | EMSSceneTimeMin | EMSSceneToPatientTimeMin | EMSTransportTimeMin | EMSTotalCallTimeMin |
++-----------+----------------+------------------+---------------+------------+-----------+--------------------------+-----------------+--------------------------+-------------------------+-----------------+--------------------------+---------------------+---------------------+
+| 158543546 | West           | Pacific          | West          | Urban      | 38        | 136                      | 1.1333333333    | 4.9                      | 3.7666666667            | .               | 2.5666666667             | .                   | 28.7                |
+| 158543547 | West           | Pacific          | West          | Urban      | 61        | 106                      | 0.1833333333    | 34.083333333             | 33.9                    | 18.433333333    | 1.3166666667             | 14.7                | 106.36666667        |
+| 158543548 | West           | Pacific          | West          | Urban      | .         | .                        | 0.7333333333    | 4.7666666667             | 4.0333333333            | .               | .                        | .                   | 9.1333333333        |
+| 158543549 | West           | Pacific          | West          | Urban      | 16        | 113                      | 0.5833333333    | 10.216666667             | 9.6333333333            | 35.566666667    | 0.5666666667             | .                   | 47.133333333        |
+| 158543550 | West           | Pacific          | West          | Urban      | 57        | 49                       | 0.75            | 18.666666667             | 17.916666667            | 32.166666667    | 2.1666666667             | .                   | 52.533333333        |
+| 158543551 | West           | Pacific          | West          | Urban      | .         | 44                       | 0.15            | .                        | .                       | .               | .                        | .                   | 15.016666667        |
+| 158543552 | West           | Pacific          | West          | Urban      | 25        | 165                      | 0.05            | 31.7                     | 31.65                   | 18.333333333    | 2.15                     | 94.516666667        | 175.76666667        |
+| 158543553 | West           | Pacific          | West          | Urban      | 45        | 38                       | 0.8             | 2.75                     | 1.95                    | .               | 1.0833333333             | .                   | 22.233333333        |
+| 158543554 | West           | Pacific          | West          | Urban      | 94        | .                        | 5.55            | 18.1                     | 12.55                   | 39.1            | 3.6                      | 20.166666667        | 111.65              |
+| 158543555 | West           | Pacific          | West          | Urban      | 44        | .                        | 4.4166666667    | 4.4166666667             | 0.0                     | .               | 0.35                     | .                   | 17.933333333        |
+| 158543556 | West           | Pacific          | West          | Urban      | 25        | 48                       | 0.0833333333    | 0.0833333333             | 0.0                     | 19.716666667    | 0.05                     | 15.45               | 55.15               |
+| 158543557 | West           | Pacific          | West          | Urban      | 27        | 49                       | 1.1666666667    | 6.3833333333             | 5.2166666667            | 12.233333333    | 2.0                      | 6.6                 | 50.033333333        |
+| 158543558 | West           | Pacific          | West          | Urban      | 61        | 130                      | 1.0             | 21.0                     | 20.0                    | 3.0             | 0.0166666667             | 11.0                | 55.0                |
+| 158543559 | West           | Pacific          | West          | Urban      | 44        | 484                      | 0.1833333333    | 11.116666667             | 10.933333333            | 5.1             | 1.0                      | 13.6                | 75.333333333        |
+| 158543560 | West           | Pacific          | West          | Urban      | 73        | 3                        | 0.25            | 0.25                     | 0.0                     | 17.716666667    | .                        | .                   | 20.566666667        |
+| 158543561 | West           | Pacific          | West          | Urban      | .         | 182                      | 0.9833333333    | 2.7333333333             | 1.75                    | .               | .                        | .                   | 8.6333333333        |
+| 158543562 | West           | Pacific          | West          | Urban      | 72        | 0                        | 1.4666666667    | 8.8166666667             | 7.35                    | .               | 1.3333333333             | .                   | 21.533333333        |
+| 158543563 | West           | Pacific          | West          | Urban      | .         | 182                      | 1.1166666667    | 3.0666666667             | 1.95                    | .               | .                        | .                   | 8.7333333333        |
+| 158543564 | West           | Pacific          | West          | Urban      | 52        | 241                      | 1.1166666667    | 5.7666666667             | 4.65                    | 8.7166666667    | 0.05                     | 12.466666667        | 81.6                |
+| 158543565 | West           | Pacific          | West          | Urban      | 16        | 157                      | 1.0             | 4.9166666667             | 3.9166666667            | .               | 0.8333333333             | .                   | 18.666666667        |
+| 158543566 | West           | Pacific          | West          | Urban      | .         | .                        | 1.4333333333    | .                        | .                       | .               | .                        | .                   | 12.85               |
+| 158543567 | West           | Pacific          | West          | Urban      | 82        | 174                      | 1.4166666667    | 6.2833333333             | 4.8666666667            | .               | 2.0                      | .                   | 22.333333333        |
+| 158543568 | West           | Pacific          | West          | Urban      | 21        | 0                        | 0.1666666667    | 3.5666666667             | 3.4                     | .               | 3.45                     | .                   | 62.233333333        |
+| 158543569 | West           | Pacific          | West          |            | 92        | 0                        | 1.1833333333    | 5.4833333333             | 4.3                     | .               | 1.3166666667             | .                   | 25.25               |
+| 158543570 | West           | Pacific          | West          | Urban      | 36        | .                        | 0.2333333333    | 6.3333333333             | 6.1                     | 7.6166666667    | 1.15                     | 14.85               | 50.6                |
++-----------+----------------+------------------+---------------+------------+-----------+--------------------------+-----------------+--------------------------+-------------------------+-----------------+--------------------------+---------------------+---------------------+
+[?2004hsqlite> 
