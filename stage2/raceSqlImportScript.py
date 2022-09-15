@@ -24,10 +24,10 @@ CREATE TABLE IF NOT EXISTS raceTable (
     PcrKey INT PRIMARY KEY NOT NULL,
     black INTEGER,  
     white INTEGER,  
-    hispanic/latino INTEGER,  
+    hispanic_latino INTEGER,  
     asian INTEGER,  
-    americanIndian/alaskaNative INTEGER,  
-    nativeHawaiian/otherPacificIslander INTEGER
+    americanIndian_alaskaNative INTEGER,  
+    nativeHawaiian_otherPacificIslander INTEGER
     );
 '''
 
@@ -45,21 +45,26 @@ with open(inputpath, "r") as csvfile:
         # skip over the header row
         next(contents)
 
-        # Define SQL statement to insert data into the computedElements table
+        print("Successfully read csv file!")
+        print(f"Time to read csv file = {format_timespan(time.time() - t_start_read)}")
+        print("Inserting csv file into sqlite3 table now...")
+        t_insert_start = time.time()
+        # Define SQL statement to insert data into the raceTable
         insert = '''
         INSERT INTO raceTable (PcrKey,
             black,
             white,
-            hispanic/latino,
+            hispanic_latino,
             asian,
-            americanIndian/alaskaNative,
-            nativeHawaiian/otherPacificIslander)
+            americanIndian_alaskaNative,
+            nativeHawaiian_otherPacificIslander)
         VALUES (?, ?, ?, ?, ?, ?, ?);
         '''
 
         # Execute insert statement
         cursor.executemany(insert, contents)
         print(f"Successfully inserted {inputpath} into db!")
+        print(f"Time to insert = {format_timespan(time.time() - t_insert_start)}")
 
 
 # Committing the changes
