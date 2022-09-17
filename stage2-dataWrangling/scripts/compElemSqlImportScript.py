@@ -58,7 +58,8 @@ for chunk in os.listdir(chunkfolder):
 
         # Define SQL statement to insert data into the computedElements table
         insert = '''
-        INSERT INTO computedElements (PcrKey,
+        INSERT INTO computedElements (
+            PcrKey,
             USCensusRegion,
             USCensusDivision,
             NasemsoRegion,
@@ -71,7 +72,8 @@ for chunk in os.listdir(chunkfolder):
             EMSSceneTimeMin,
             EMSSceneToPatientTimeMin,
             EMSTransportTimeMin,
-            EMSTotalCallTimeMin)
+            EMSTotalCallTimeMin
+            )
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
         '''
 
