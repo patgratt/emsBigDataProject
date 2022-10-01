@@ -21,19 +21,19 @@ cursor = connection.cursor()
 create_table = '''
 CREATE TABLE IF NOT EXISTS computedElements (
 	PcrKey INT PRIMARY KEY NOT NULL,  
-	USCensusRegion TEXT, 
-	USCensusDivision TEXT,  
-	NasemsoRegion TEXT,  
-	Urbanicity TEXT,  
-	ageinyear INT,  
-	EMSDispatchCenterTimeSec INT,  
-	EMSChuteTimeMin FLOAT,  
-	EMSSystemResponseTimeMin FLOAT,  	
-	EMSSceneResponseTimeMin FLOAT,  
-	EMSSceneTimeMin FLOAT,  
-	EMSSceneToPatientTimeMin FLOAT,  
-	EMSTransportTimeMin FLOAT,  
-	EMSTotalCallTimeMin FLOAT
+	USCensusRegion TEXT NOT NULL, 
+	USCensusDivision TEXT NOT NULL,  
+	NasemsoRegion TEXT NOT NULL,  
+	Urbanicity TEXT NOT NULL,  
+	ageinyear INT NOT NULL,  
+	EMSDispatchCenterTimeSec INT NOT NULL,  
+	EMSChuteTimeMin FLOAT NOT NULL,  
+	EMSSystemResponseTimeMin FLOAT NOT NULL,  	
+	EMSSceneResponseTimeMin FLOAT NOT NULL,  
+	EMSSceneTimeMin FLOAT NOT NULL,  
+	EMSSceneToPatientTimeMin FLOAT NOT NULL,  
+	EMSTransportTimeMin FLOAT NOT NULL,  
+	EMSTotalCallTimeMin FLOAT NOT NULL
 );
 '''
 
