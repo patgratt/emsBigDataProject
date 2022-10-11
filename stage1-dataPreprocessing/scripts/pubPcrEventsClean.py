@@ -8,8 +8,8 @@ from humanfriendly import format_timespan
 
 def main():
 
-    file_name = r"C:\Users\pat\Desktop\data\FACTPCRVITAL.txt"
-    chunk_folder_path = r"C:\Users\pat\Desktop\factpcrvital_chunks"
+    file_name = r"C:\Users\pat\Desktop\Pub_PCRevents.txt"
+    chunk_folder_path = r"C:\Users\pat\OneDrive - Emory University\ECON496RW\processedCSVs\big\pub_pcrevents_chunks"
 
     print(f"Analyzing {file_name}")
 
@@ -43,7 +43,7 @@ def main():
         print(f"Time to clean this chunk = {format_timespan(clean_end_time -  clean_start_time)}")
 
         # export
-        cleaned_chunk_name = f'factpcrvital_chunk{chunk_no}.csv'
+        cleaned_chunk_name = f'pub_pcrevents_chunk{chunk_no}.csv'
         chunk.to_csv(chunk_folder_path + cleaned_chunk_name, index=False)
         print(f"{cleaned_chunk_name} succesfully exported to {chunk_folder_path}")
 
